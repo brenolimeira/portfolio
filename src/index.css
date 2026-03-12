@@ -130,8 +130,8 @@ code {
 }
 
 .section {
-  min-height: 100vh;
-  padding: 80px 20px;
+  height: 100vh;
+  padding: 20px 20px;
   display: flex;
   align-items: center;
   justify-content: center;
