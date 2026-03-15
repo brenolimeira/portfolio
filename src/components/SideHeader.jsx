@@ -42,11 +42,11 @@ export default function SideHeader() {
                         label: "Portfolio",
                         onClick: () => scrollToSection("portfolio")
                     },
-                    {
-                        key: "redes",
-                        label: "Redes",
-                        onClick: () => scrollToSection("redes")
-                    }
+                    // {
+                    //     key: "social",
+                    //     label: "Redes Sociais",
+                    //     onClick: () => scrollToSection("social")
+                    // }
                 ]}
                 style={{ flex: 1, minWidth: 0, alignItems: 'center', justifyContent: 'center', background: 'transparent' }}
             />

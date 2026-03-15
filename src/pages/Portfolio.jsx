@@ -2,9 +2,7 @@ import { Flex, Typography, Image, Card } from "antd";
 import hotel from "../assets/login-hotel.PNG";
 import open3 from "../assets/open3.PNG";
 
-const { Paragraph, Title } = Typography;
-
-const { Meta } = Card;
+const { Title } = Typography;
 
 
 export default function Portfolio() {
@@ -16,6 +14,7 @@ export default function Portfolio() {
                     <Card
                         className="project-card"
                         hoverable
+                        onClick={() => window.open("https://gerenciar-hotel-production.up.railway.app/", "_blank")}
                         style={{ maxWidth:800, background: "#262626", borderRadius: "12px" }}
                         cover={
                             <img
@@ -37,6 +36,7 @@ export default function Portfolio() {
                     <Card
                         className="project-card"
                         hoverable
+                        onClick={() => window.open("https://brenolimeira.github.io/open3/", "_blank")}
                         style={{ maxWidth: 800, background: "#262626", borderRadius: "12px" }}
                         cover={
                             <img
