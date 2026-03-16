@@ -170,3 +170,12 @@ code {
   color: #1677ff;
   text-shadow: 0 0 10px rgba(22,119,255,0.6);
 }
+
+.ant-menu-dark .ant-menu-item-selected {
+  background-color: transparent !important; /* cor do fundo */
+  color: #ffffff !important; /* cor do texto */
+}
+
+.ant-menu-dark .ant-menu-item:hover {
+  background-color: #4096ff;
+}

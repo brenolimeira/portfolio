@@ -51,7 +51,7 @@ export default function Portfolio() {
                             com design responsivo e navegação otimizada. Desenvolvida com HTML5, CSS3, JavaScript e React."
                         /> */}
                         Landing page para divulgação de serviços de suporte técnico, com design responsivo e navegação otimizada. 
-                        Desenvolvida com HTML5, CSS3, JavaScript e React.
+                        Desenvolvida com JavaScript e React.
                     </Card>
                 </Flex>
             </Flex>
